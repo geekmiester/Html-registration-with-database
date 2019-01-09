@@ -21,7 +21,7 @@
   		<input type="password" name="password">
   	</div>
   	<div class="input-group">
-  		<button type="submit" class="btn" name="login_user"><a href="profile.php" class='jpt'>Login</a> </button>
+  		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
   	<p>
   		Not yet a member? <a href="register.php">Sign up</a>
