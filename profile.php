@@ -84,7 +84,7 @@
 
 						<div class="col-xs-12 col-sm-9">
 							<h4 class="blue">
-								<span class="middle">John Doe</span>
+								<span class="middle">PROFILE</span>
 
 								<span class="label label-purple arrowed-in-right">
 									<i class="ace-icon fa fa-circle smaller-80 align-middle"></i>
@@ -94,13 +94,13 @@
 
 							<div class="profile-user-info">
 								<div class="profile-info-row">
-									<div class="profile-info-name"> Username </div>
+									<div class="profile-info-name"></div>
 
 									<div class="profile-info-value">
 										<span><?php  if (isset($_SESSION['username'])) : ?>
     										<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    											<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-    										<?php endif ?></div>alexdoe</span>
+    											
+    										<?php endif ?></div></span>
 									</div>
 								</div>
 
@@ -199,6 +199,7 @@
 										<p>
 											Thanks for visiting my profile.
 										</p>
+										<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
 									</div>
 								</div>
 							</div>
