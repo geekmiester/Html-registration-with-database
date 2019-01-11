@@ -138,13 +138,14 @@
   					<th></th> 
  					</tr>
 					 <?php
+					 $user = $_SESSION['username'];
 					$conn = mysqli_connect("localhost", "root", "", "registration");
   					// Check connection
   					if ($conn->connect_error) {
   					 die("Connection failed: " . $conn->connect_error);
 					  } 
     											
- 					 $sql = "SELECT Bio FROM users where username='new3'";
+ 					 $sql = "SELECT Bio FROM users where username= '$user'";
   					$result = $conn->query($sql);
 					  if ($result->num_rows > 0) {
  					  // output data of each row
