@@ -27,6 +27,10 @@
   	<div class="input-group">
   	  <label>Confirm password</label>
   	  <input type="password" name="password_2">
+	  </div>
+	  <div class="input-group">
+  	  <label>Bio</label>
+  	  <input type="text" name="Bio">
   	</div>
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Register</button>
